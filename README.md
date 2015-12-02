@@ -11,7 +11,7 @@ Vim is known as a highly configurable text editor built to enable efficient text
 
 1.1. Put `vim-stata.vim`(this file) to dir `vimfiles/plugin` or `vim74/plugin`
 
-2.2. Use Vim `Pathogen` or `Vundle` plugin to install it from git repository. 
+2.2. Or use Vim `Pathogen` or `Vundle` plugin to install it from git repository. 
 
 ###2, To ensure that the do-files are opened in the Stata by default and hence are executed  directly, we need to make the following two changes.
 
