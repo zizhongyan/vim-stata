@@ -1,6 +1,6 @@
 # Vim Plugin for Running Selected Do-File in Stata
 
-Vim is knnown as a highly configurable text editor built to enable efficient text editing and Stata is one of the most popular statitical package which has a huge users community. This plugin is developed under the Mac OS X to make connections between Vim and Stata. With our plugin, you could easily send the selected do files from Vim editor and have it run in Stata. To our best knowledge, this is probably the first plugin to link Vim and Stata under the Unix-like platform. (For Windows users, please refer to the information in the last section). Please feel free to let us know if you have any comment and suggestion.
+Vim is known as a highly configurable text editor built to enable efficient text editing and Stata is one of the most popular statistical package which has a huge users community. This plugin (beta) is developed under the Mac OS X to make connections between Vim and Stata. With our plugin, you could easily send the selected do files from Vim editor and have it run in Stata. To our best knowledge, this is probably the first plugin to link Vim and Stata under the Unix-like platform. (For Windows users, please refer to the information in the last section). Please feel free to let us know if you have any comment and suggestion.
 
 (Last edited on 2nd Dec 2015 by [Z Yan](mailto:helloyzz@gmail.com) and [C Wang](mailto:flora7819@gmail.com) )
 
@@ -23,7 +23,7 @@ Right click on any do-file under Finder > Open With > Select Stata from Applicat
 ###3, Hotkey binding (optional)
 The hotkey for executing selected codes is set to be `F9`.
 
-Please note that you could customise your hotkey by adding a sentence to your .vimrc or vimrc, for example:
+Please note that you could customise your hotkey by simply adding a sentence to your .vimrc or vimrc, for example:
 
     :vmap <C-S-x> :<C-U>call RunDoLines()<CR><CR>
 
