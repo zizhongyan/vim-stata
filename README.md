@@ -6,6 +6,7 @@ Vim is known as a highly configurable text editor built to enable efficient text
 
 ##Update:
 This updated enable the Stata syntax highlighting in Vim. An updated and enhanced Stata syntax file has been included (based on Jeffrey Pitblado's Stata syntax file). (Thanks for William Buchanan's suggestion.)
+
 (Last edited on 29 Feb 2016 by [Z Yan](mailto:helloyzz@gmail.com) and [C Wang](mailto:flora7819@gmail.com) )
 
 
