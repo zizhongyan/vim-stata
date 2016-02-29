@@ -49,3 +49,10 @@ ii) AppleScript commands sometimes do not work properly based on our own experie
 2, For Windows users, please follow the instructions in the webpage above.
         
 3, This plugin has been tested on Mac OS X Yosemite and El Capitan and supports Stata 12-14SE/MP/IC. (It should also work well with Stata 11, but has not been formally tested)
+
+## Screenshots for syntax highlighting
+![ScreenShot](https://github.com/zizhongyan/stata-vim-syntax/blob/master/screenshots/Screen.Shot.2015-12-22.at.14.04.45.png)
+![ScreenShot](https://github.com/zizhongyan/stata-vim-syntax/blob/master/screenshots/Screen.Shot.2015-12-22.at.14.01.27.png)
+![ScreenShot](https://github.com/zizhongyan/stata-vim-syntax/blob/master/screenshots/Screen.Shot.2015-12-22.at.14.02.01.png)
+![ScreenShot](https://github.com/zizhongyan/stata-vim-syntax/blob/master/screenshots/Screen.Shot.2015-12-22.at.14.02.29.png)
+![ScreenShot](https://github.com/zizhongyan/stata-vim-syntax/blob/master/screenshots/Screen.Shot.2015-12-22.at.14.03.49.png)
