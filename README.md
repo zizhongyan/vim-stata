@@ -43,12 +43,12 @@ For **Linux** users, you have to let the plugin know where your Stata binary liv
 " Path to Stata - Set either one of these but not both. Paste in the path with the executable filename
 "	Example: On Linux, /usr/local/stata15/xstata for Stata 15
 " -- Option (1): Path to the Stata binary (including the executable name)
-let g:vimtostata_pathbin = "/usr/local/stata15/xstata"
+let g:vimforstata_pathbin = "/usr/local/stata15/xstata"
 ```
 Or:
 ```
 " -- Option (2): Path to a shell script with code that runs Stata
-let g:vimtostata_pathbin_sh = "~/Scripts/stata.sh"
+let g:vimforstata_pathbin_sh = "~/Scripts/stata.sh"
 ```
 
 A standard installation of Stata on Linux comes with different executable options (stata, xstata, stata-sm, stata-se, stata-mp, etc.). Usually for a Linux installation, `/stata` is the console version and `/xstata` is the GUI version. Enter in the one that's appropriate to your installation and license.
