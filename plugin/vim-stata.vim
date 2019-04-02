@@ -56,8 +56,10 @@
 
 " === VIM-STATA
 " Default settings
-	let g:vimforstata_set_column == 1		" Turn on the 80th column line for .do files as in the Stata do file editor.
-
+	if !exists("g:vimforstata_set_column")
+		let g:vimforstata_set_column = 1		" Turn on the 80th column line for .do files as in the Stata do file editor.
+	endif
+	
 " RunDoLines() -- Takes selected lines from a do file in Vim and opens Stata to run them.
 function! RunDoLines()
 	

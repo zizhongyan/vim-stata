@@ -1,7 +1,7 @@
  
 augroup stata
 	" Set a soft limit at 80 columns (as with Stata's do file editor) - /se/356
-	if g:vimforstata_set_column != 0
+	if g:vimforstata_set_column == 1
         au BufRead,BufEnter,BufNewFile *.do setlocal colorcolumn=80
 	endif
 
