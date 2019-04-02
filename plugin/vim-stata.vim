@@ -56,6 +56,10 @@
 
 " === VIM-STATA
 function! RunDoLines()
+	" Default settings
+	let g:vimforstata_set_column == 1		" Turn on the 80th column line for .do files as in the Stata do file editor.
+	
+	" Determine lines selected
 	let selectedLines = getbufline('%', line("'<"), line("'>"))
 	
 	if col("'>") < strlen(getline(line("'>")))

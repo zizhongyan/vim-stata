@@ -69,9 +69,18 @@ The hotkey for executing selected codes is set to be `F9`.
 
 Please note that you could customise your hotkey by simply adding a sentence to your .vimrc or vimrc, for example:
 
-    :vmap <C-S-x> :<C-U>call RunDoLines()<CR><CR>
+
+	" Select Do file lines (with v or V) and run them with Ctrl+Shift+X
+	:vmap <C-S-x> :<C-U>call RunDoLines()<CR><CR>
 
 Then the hotkey would be changed to `Ctrl+Shift+X`
+
+### 5, Column Line (optional)
+
+The Stata do file editor puts a helpful line at the 80th column to let the user know when the lines they're coding are getting too long. By default this is turned on for any .do file. Feel free to turn this OFF with the following setting:
+
+	" Turn off the 80th column line
+	let g:vimforstata_set_column == 0
 
 ### 5, Restart the Vim and hit `F9` or the customised hotkey to run the selected codes.
 
